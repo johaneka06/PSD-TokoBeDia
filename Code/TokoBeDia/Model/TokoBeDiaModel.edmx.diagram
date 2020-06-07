@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e6ee2424e2f84ce783e971a566850183" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.Cart" Width="1.5" PointX="8.25" PointY="5.5" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.DetailTransaction" Width="1.5" PointX="0.5" PointY="3.75" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.HeaderTransaction" Width="1.5" PointX="0.5" PointY="0.875" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.PaymentType" Width="1.5" PointX="7.875" PointY="0.75" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.Product" Width="1.5" PointX="0.5" PointY="7.5" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.ProductType" Width="1.5" PointX="5.75" PointY="7.875" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.Role" Width="1.5" PointX="8.125" PointY="3.375" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.User" Width="1.5" PointX="4.625" PointY="1.25" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__Carts__ProductID__300424B4" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__Carts__UserID__2F10007B" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__DetailTra__Produ__37A5467C" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__DetailTra__Trans__36B12243" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__HeaderTra__Payme__33D4B598" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__HeaderTra__UserI__32E0915F" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__Products__Produc__2C3393D0" />
+        <AssociationConnector Association="TokoBeDiaDBModel.FK__Users__RoleID__25869641" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.vProduct" Width="1.5" PointX="10.25" PointY="3.875" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.vUser" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.vCart" Width="1.5" PointX="10.25" PointY="6.875" />
+        <EntityTypeShape EntityType="TokoBeDiaDBModel.vTransaction" Width="1.5" PointX="13" PointY="3.875" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
