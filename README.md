@@ -1,5 +1,7 @@
 # PSD-TokoBeDia
 
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)]
+
 Repository for Pattern Software Design Lab Project Even 2019 / 2020.
 
 The project name is "TokoBeDia"
